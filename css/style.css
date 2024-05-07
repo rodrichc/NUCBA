@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Sedan+SC&display=swap');
+
 body {
+    font-family: "Merriweather", serif;
     background-color: rgb(29, 27, 27);
     max-width: 120rem;
     width: 90%;
@@ -13,6 +16,7 @@ span {
 }
 legend {
     color: #FFA500;
+    font-weight: 700;
 }
 label {
     color: #F7DC6F;
@@ -21,6 +25,7 @@ label {
 
 /* Titulo */
 h1 {
+    font-family: "Sedan SC", serif;
     font-size: 3rem;
     color: #FFA500;
     text-align: center;
@@ -32,8 +37,7 @@ img {
     width: 20%;
     display: block;
     margin: 0 auto 2rem auto;
-    border-radius: 70px 120px 20px 70px;
-    box-shadow: 5px 5px #DAA520;
+    border-radius: 20rem;
 }
 
 /* Datos */
@@ -84,8 +88,12 @@ input, textarea {
     border: none;
     border-radius: 4px;
 }
+textarea {
+    height: 10rem;
+}
 
 button {
+    font-family: "Sedan SC", serif;
     background-color: #DAA520;
     border: none;
     color: #FFFFFF;

@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafíos</title>
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+    </style>
     <main>
         <section>
             <h1>Rodri Chavez</h1>
@@ -26,21 +27,21 @@
     <form>
         <fieldset>
             <legend class="contacto">Datos de Contacto</legend>
-            <label>Nombre </label>
-            <input type="text" placeholder="Ingrese su nombre">
+            <label for="nombre">Nombre </label>
+            <input type="text" placeholder="Ingrese su nombre" id="nombre" required>
             
-            <label>Apellido</label>
-            <input type="text" placeholder="Ingrese su apellido">
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Ingrese su apellido" id="apellido"required>
             
-            <label>Mail</label>
-            <input type="email" placeholder="Ingrese su mail">
+            <label for="mail">Mail</label>
+            <input type="email" placeholder="Ingrese su mail" id="mail" required>
             
-            <label>Telefono</label>
-            <input type="tel" placeholder="Ingrese su telefono">
+            <label for="telefono">Telefono</label>
+            <input type="tel" placeholder="Ingrese su telefono" id="telefono" required>
         </fieldset>
         <fieldset>
             <legend class="mensaje">Mensaje</legend>
-            <textarea placeholder="Deje su mensaje aquí" cols="50" rows="10"></textarea>
+            <textarea placeholder="Deje su mensaje aquí"></textarea>
         </fieldset>
         <button type="submit">Enviar</button>
         <button type="reset">Borrar</button>
